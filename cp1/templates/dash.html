@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>AI_15_ayaan_cp1</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    
+    <!-- jQuery 추가 -->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+
+    <!-- jQuery를 이용하여 header.html파일 가져오기 -->
+    <script type="text/javascript">   
+        $(document).ready( function() {
+        
+        // 넣을 헤더의 id
+        $("#navs").load("assets/temple/nav.html");  // 원하는 파일 경로를 삽입하면 된다
+        
+        });
+        </script>
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <header id='navs'></header>
+
+    <!-- Start Hero Area -->
+    <section class="hero-area wow fadeInUp" data-wow-delay=".6s">
+        <div align="center">
+        <h1 class="wow fadeInUp" data-wow-delay=".6s" style="font: optional; color: #3080E3;
+         font-size: 100px; border: 2px solid #3080E3; border-radius: 30px; padding: 8px 30px; margin-bottom: 50px;
+          display: inline-block;">Eat Out Trends</h1>
+        </div>
+        <br/>
+        <h3 align="center" style="color:green; font-weight:bold; opacity: 0.5;">
+          Tableau를 통한 시각화</h3>
+        <br/>
+        <br/>
+        <br/>
+        <div><iframe src="https://public.tableau.com/views/_16732840540810/1?:language=ko-KR&publish=yes&:display_count=n&:origin=viz_share_link:embed=yes&:showVizHome=no" width="1530" height="900" style="position: relative; z-index: 2;">
+        </iframe></div>
+        <div class="main__circle" style="opacity: 0.3;  z-index: 1;"></div> <!--이미지 순서조정-->
+        <div class="main__circle2" style="opacity: 0.3;  z-index: 1;"></div>
+        <div class="main__circle3" style="opacity: 0.3;  z-index: 1;"></div>
+        <div class="main__circle4" style="opacity: 0.3;  z-index: 1;"></div>
+    </section>
+<!-- ========================= scroll-top ========================= -->
+<a href="#" class="scroll-top">
+    <i class="lni lni-chevron-up"></i>
+</a>
+  
+  <!-- ========================= JS here ========================= -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+  <script src="assets/js/count-up.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    //========= testimonial 
+    tns({
+        container: '.testimonial-slider',
+        items: 3,
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 0,
+        nav: true,
+        controls: false,
+        controlsText: ['<i class="lni lni-arrow-left"></i>', '<i class="lni lni-arrow-right"></i>'],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            540: {
+                items: 1,
+            },
+            768: {
+                items: 1,
+            },
+            992: {
+                items: 1,
+            },
+            1170: {
+                items: 2,
+            }
+        }
+    });
+  
+    //====== counter up 
+    var cu = new counterUp({
+        start: 0,
+        duration: 2000,
+        intvalues: true,
+        interval: 100,
+        append: " ",
+    });
+    cu.start();
+  </script>
+  </body>
+  
+  </html>
+
